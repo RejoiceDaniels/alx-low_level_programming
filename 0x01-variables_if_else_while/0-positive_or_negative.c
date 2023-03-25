@@ -3,7 +3,8 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-/** main -  assigns a random number to n all the time. 
+/**
+ * main - assigns a random number to n all the time
  * it executes and prints it.
  * Return: always 0
  */
@@ -20,6 +21,5 @@ int main(void)
 		printf("%d is zero\n", n);
 	else if (n < 0)
 		printf("%d is negative\n", n);
-	
 	return (0);
 }
